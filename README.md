@@ -16,6 +16,7 @@ AI-assisted development becomes slow when every file inspection, script executio
 - Structured task requests and machine-readable results for selected workspace operations.
 - Local file inspection and editing workflows, command execution for trusted development and validation through tests.
 - Workspace activity, diagnostics, status and continuity controls.
+- A separate local read-only WebApp dashboard for workspace status and diagnostics on a trusted LAN, including phone browsers.
 - Project-state continuity using maintained documentation and an Initialize / Resume workflow.
 - A regression suite with **637 tests passing** in the recorded October 2026 development snapshot.
 

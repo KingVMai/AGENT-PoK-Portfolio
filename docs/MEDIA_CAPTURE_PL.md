@@ -21,3 +21,7 @@ KDE neon / Plasma: uruchom **Spectacle**, wybierz obszar lub okno, zapisz PNG. U
 Jeśli przełączanie między popupem a ChatGPT zamyka popup, zrób osobne ujęcia panelu. Nie trzeba pokazywać ich równocześnie.
 
 W repo `screenshots/` oraz `media/` są foldery na zatwierdzone materiały; na tym etapie pozostają puste.
+
+## Mobilny dashboard (dodatkowy materiał)
+
+Po potwierdzeniu działania na iPhonie wykonaj piąty zrzut `05-mobile-webapp.png` w Safari, korzystając z tego samego Wi-Fi. Ukryj pasek adresu z lokalnym IP, rzeczywiste dane projektów, logi i informacje osobiste. Opublikujemy materiał dopiero po weryfikacji prywatności.

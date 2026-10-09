@@ -10,6 +10,10 @@ Agent PoK is designed as a local bridge between an AI conversation and a selecte
 4. **Workspace documentation:** maintained project-level source of truth for continuity across sessions.
 5. **Tests and diagnostics:** regression tests and manual acceptance checks.
 
+## Web dashboard (LAN observer)
+
+A Python HTTP dashboard supplies browser-accessible monitoring. The canonical server listens on localhost, while a separate GET/HEAD-only observer exposes dashboard data on a trusted private LAN interface. systemd user units start services automatically and restart them on failures. Private LAN address changes may require reconfiguration. This is not a public web service and has no confirmed end-user login mechanism.
+
 ## Engineering considerations
 
 - Explicit workspace selection and machine-readable task/result messages.

@@ -11,3 +11,7 @@
 **Do not record:** personal chats, live trading credentials, passwords, API keys, personal paths, employer data, private logs or browser bookmarks revealing private information.
 
 Add only reviewed screenshots and a reviewed edited video to this repository. No need to show implementation details or full source code.
+
+## Mobile dashboard demonstration
+
+After confirming access from a phone on trusted Wi-Fi, capture one privacy-reviewed screenshot of the read-only WebApp. Hide the private IP, actual logs, project names and personal information. This is a LAN feature, not a public service.
