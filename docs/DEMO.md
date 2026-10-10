@@ -15,3 +15,13 @@ Add only reviewed screenshots and a reviewed edited video to this repository. No
 ## Mobile dashboard demonstration
 
 After confirming access from a phone on trusted Wi-Fi, capture one privacy-reviewed screenshot of the read-only WebApp. Hide the private IP, actual logs, project names and personal information. This is a LAN feature, not a public service.
+
+
+<!-- AGENT_POK_PORTFOLIO_WEBAPP_DEMO_20261010 -->
+## Demonstrating both interfaces
+
+1. **Browser extension:** show the extension interface and a permitted task in a synthetic demonstration workspace, without exposing real personal or project files.
+2. **Local WebApp:** show System Health, Workspace Registry, task and performance panels, recent activity and read-only diagnostics in a desktop browser.
+3. **Mobile WebApp:** show the same responsive monitoring dashboard in Safari on an iPhone on a trusted local network. Distinguish the accessible WebApp from the independent online/stale/offline status of the agent.
+
+Use privacy-reviewed screenshots or recordings only. Hide local IP addresses, absolute file paths, task identifiers, device or account details and any genuine workspace content. Do not present the WebApp as a public cloud service or as a remote execution controller.

@@ -26,3 +26,13 @@ A Python HTTP dashboard supplies browser-accessible monitoring. The canonical se
 Browser UI integrations depend on third-party DOM structures and can require maintenance when the interface changes. Trusted local command execution is not an operating-system sandbox. This private-use project has not undergone an independent security certification.
 
 Detailed implementation and source code are intentionally not distributed in this portfolio.
+
+
+<!-- AGENT_POK_PORTFOLIO_INTERFACE_ARCHITECTURE_20261010 -->
+## Product interfaces: Chrome Extension and WebApp
+
+**Chrome Extension — automation interface.** The Manifest V3 browser extension integrates the ChatGPT-side workflow with the authorized local Native Messaging host and Python agent. Workspace-restricted operations belong to this execution channel.
+
+**Local WebApp — observation interface.** A separate Python HTTP server exposes a responsive dashboard and read-only JSON endpoints for sanitized agent observer data. It displays connectivity and heartbeat freshness, the current task, performance indicators, recent changes, error summaries, System Health and a bounded Workspace Registry. A restricted LAN proxy supports viewing the dashboard on another device on the trusted home network.
+
+These are deliberately distinct interfaces. Opening the WebApp does not provide a command channel or grant access to other detected projects. Dashboard availability and agent connectivity are reported separately. The dashboard is not hosted as a public cloud service.

@@ -1,5 +1,16 @@
 # Agent PoK
 
+<!-- AGENT_POK_PORTFOLIO_DUAL_INTERFACES_20261010 -->
+## Two interfaces, one local automation product
+
+**Agent PoK by KingVMai** combines a **Chrome browser extension** with a **responsive local WebApp dashboard**:
+
+- **Browser Extension (Chrome / Manifest V3):** the ChatGPT-facing interface that communicates with the authorized local Python agent through Native Messaging. This is the automation and task-execution side of the product.
+- **WebApp (read-only monitoring dashboard):** a browser-based interface for reviewing agent connectivity, system health, heartbeat freshness, task runtime, recent activity, diagnostics, errors and discovered project workspaces. Its responsive layout supports desktop browsers and phones, including Safari on iPhone over a trusted local network.
+
+The WebApp is a **locally hosted monitoring application**, not a public SaaS platform or a remote command-execution console. Workspace discovery does not authorize access or execution in another project.
+
+
 **A local AI-to-workspace execution companion** — a KingVMai portfolio project.
 
 **Status:** Working private prototype · Chrome-first · Source code not publicly distributed
