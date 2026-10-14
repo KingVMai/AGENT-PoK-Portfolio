@@ -63,6 +63,6 @@ Curated, privacy-checked screenshots and a short video demonstration remain to b
 
 ## Current scope
 
-Agent PoK is a personal local tool, not a public extension or hosted service. The source repository remains private. The installed extension currently reports version **0.1.1**; private **1.0.0** is only a proposal, not a tagged or published release. This showcase describes the project without releasing its internal engine, personal logs or credentials.
+Agent PoK is a personal local tool, not a public extension or hosted service. The source repository remains private. The owner confirmed the locally installed Chrome extension as **Agent PoK Private v1.0.0** on 14 October 2026. This remains a private local release, not a public distribution, Chrome Web Store release or public source-code publication. This showcase describes the project without releasing its internal engine, personal logs or credentials.
 
 **KingVMai** · Project portfolio · 2026
