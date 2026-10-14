@@ -51,11 +51,13 @@ Structured execution result -> conversation
 
 [Architecture details](docs/ARCHITECTURE.md) · [Validation and limits](docs/VALIDATION.md) · [Demo walkthrough](docs/DEMO.md)
 
-## My contribution
+## My contribution and how AI was used
 
-**Project owner and workflow designer:** defined the product concept, requirements, architecture decisions, desired user experience, acceptance criteria and safety trade-offs. Coordinated AI-assisted implementation, investigated failures, tested real workflows and drove iterative regression fixes.
+**My role — product owner, requirements and acceptance:** I conceived Agent PoK, set the product direction and priorities, specified its capabilities and user experience, made decisions about scope and safety trade-offs, and defined acceptance criteria. I tested real Chrome workflows, reviewed diagnostic results, requested corrections and personally approved the private v1.0.0 release. I determined **what to build, why to build it, and whether the outcome met my requirements**.
 
-This is an **AI-assisted software engineering and quality assurance project**, not a claim that every line of source code was manually written.
+**AI's role — end-to-end technical execution:** AI performed the software implementation, code modifications, test development and execution, documentation, terminal work, and Git/GitHub operations (including commits) under my direction. I do **not** claim to have personally programmed the underlying application. My contribution was to direct, evaluate and accept the AI-executed work.
+
+**Working method:** requirements and priorities defined by me -> AI implementation -> regression tests and practical checks -> my feedback and acceptance -> AI-driven version control and release preparation. This case study demonstrates product ownership, requirements engineering, iterative QA, troubleshooting, AI orchestration and safety-aware decision-making. Source code and private runtime data are intentionally withheld.
 
 ## Screenshots and demo
 
