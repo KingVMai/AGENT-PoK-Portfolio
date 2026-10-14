@@ -11,3 +11,7 @@ private/
 drafts/
 __pycache__/
 .DS_Store
+
+# Keep original user media local; only showcase copies are intended for GitHub.
+screenshots/*.png
+media/*.mkv

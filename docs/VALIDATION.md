@@ -2,12 +2,13 @@
 
 ## Evidence from the private development snapshot
 
-- **756/756 maintained automated tests passing** (14 October 2026, owner's private development environment).
+- **758/758 maintained automated tests passing** (14 October 2026, owner's private development environment).
 - JavaScript syntax checks passed for the verified browser components.
 - Dashboard generated HTML/CSS consistency checks passed.
 - The owner visually accepted the current Chrome popup dashboard and updated User Manual on 14 October 2026, then reloaded and confirmed the locally installed **Private v1.0.0** extension and version footer. This is scoped owner acceptance, not proof that every presentation edge case is resolved.
 - Manual testing of local task requests, structured responses, text transport and selected image-assisted interactions.
 - Documentation and working-state continuity reviewed as part of project handover design.
+- On 14 October 2026, the owner verified the display-only Communication Log and Recent History broom behavior after the fix; native audit files were retained.
 
 ## WebApp operational verification
 

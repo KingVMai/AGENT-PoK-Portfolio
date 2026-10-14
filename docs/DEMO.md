@@ -1,27 +1,17 @@
-# Short demonstration walkthrough
+# Agent PoK — demonstration recordings
 
-**Goal:** demonstrate a real, safe, local task in approximately one minute.
+## Available materials
 
-1. Open Chrome and show the Agent PoK extension overview.
-2. Select a disposable test workspace containing only synthetic files.
-3. Ask ChatGPT to inspect a test file or create a harmless demo text file through Agent PoK.
-4. Show the structured execution result and the verified local file.
-5. Briefly show Workspace Activity / diagnostics and the Initialize / Resume controls.
+- [Short extension demo — 1 min 43 s, MP4](../media/showcase/agent-pok-short-demo.mp4): interface and theme switching.
+- [Full workflow demo — 8 min 12 s, MP4](../media/showcase/agent-pok-full-demo.mp4): ChatGPT, local development workspace, file operations and results.
+- [Extension screenshots](../screenshots/showcase/dashboard-dark-1.png) and [Remote View](../screenshots/showcase/remote-view-overview.png).
 
-**Do not record:** personal chats, live trading credentials, passwords, API keys, personal paths, employer data, private logs or browser bookmarks revealing private information.
+The MP4 files use stream copying from the original MKV recordings (H.264 video and AAC audio), without editing the picture or audio. Original recordings are retained locally.
 
-Add only reviewed screenshots and a reviewed edited video to this repository. No need to show implementation details or full source code.
+## How to interpret the demonstrations
 
-## Mobile dashboard demonstration
+Agent PoK connects a Chrome extension to an authorized local Python execution host. The separate WebApp is a read-only monitoring interface for a trusted LAN, not a public hosted service or remote execution channel. Recorded screens show particular demonstration sessions and should not be interpreted as guaranteed behavior in every environment.
 
-After confirming access from a phone on trusted Wi-Fi, capture one privacy-reviewed screenshot of the read-only WebApp. Hide the private IP, actual logs, project names and personal information. This is a LAN feature, not a public service.
+## Publication checklist
 
-
-<!-- AGENT_POK_PORTFOLIO_WEBAPP_DEMO_20261010 -->
-## Demonstrating both interfaces
-
-1. **Browser extension:** show the extension interface and a permitted task in a synthetic demonstration workspace, without exposing real personal or project files.
-2. **Local WebApp:** show System Health, Workspace Registry, task and performance panels, recent activity and read-only diagnostics in a desktop browser.
-3. **Mobile WebApp:** show the same responsive monitoring dashboard in Safari on an iPhone on a trusted local network. Distinguish the accessible WebApp from the independent online/stale/offline status of the agent.
-
-Use privacy-reviewed screenshots or recordings only. Hide local IP addresses, absolute file paths, task identifiers, device or account details and any genuine workspace content. Do not present the WebApp as a public cloud service or as a remote execution controller.
+Before public publication, the owner must watch **both full videos with sound** to confirm the absence of passwords, tokens, private third-party information and confidential content. Ordinary local development paths and non-sharing ChatGPT conversation URLs need not be hidden solely because they are visible. Do not claim the latest WebApp was owner-verified end-to-end on a real iPhone.

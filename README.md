@@ -31,7 +31,7 @@ AI-assisted development becomes slow when every file inspection, script executio
 - AUTO / TEXT / FILE task transport, a serialized user-message queue, and validated text/image-assisted task workflows.
 - A separate local read-only WebApp dashboard for workspace status and diagnostics on a trusted LAN, including phone browsers.
 - Project-state continuity using maintained documentation and an Initialize / Resume workflow.
-- A maintained regression suite with **756/756 tests passing** on 14 October 2026 in the private development environment (not an independent security certification).
+- A maintained regression suite with **758/758 tests passing** on 14 October 2026 in the private development environment (not an independent security certification).
 
 ## Architecture (high level)
 
@@ -61,7 +61,30 @@ Structured execution result -> conversation
 
 ## Screenshots and demo
 
-Curated, privacy-checked screenshots and a short video demonstration remain to be captured and approved. Visual acceptance of the latest WebApp dashboard on a real phone is still pending. This portfolio repository should be updated with approved visual evidence before the link is used in a CV.
+Actual captures of the private-use Agent PoK product. The showcase PNG copies preserve the full original frames while omitting embedded image metadata. Ordinary local workspace paths and private ChatGPT conversation URLs may be visible; they are not authentication credentials.
+
+### Chrome extension — dark and light themes
+
+| Dark mode | Light mode |
+| --- | --- |
+| ![Dark-mode dashboard](screenshots/showcase/dashboard-dark-1.png) | ![Light-mode dashboard](screenshots/showcase/dashboard-light-1.png) |
+
+[Dark 2](screenshots/showcase/dashboard-dark-2.png) · [Dark 3](screenshots/showcase/dashboard-dark-3.png) · [Light 2](screenshots/showcase/dashboard-light-2.png) · [Light 3](screenshots/showcase/dashboard-light-3.png) · [User Manual 1](screenshots/showcase/dashboard-manual-1.png) · [User Manual 2](screenshots/showcase/dashboard-manual-2.png)
+
+### Local WebApp — Remote View
+
+![Local read-only WebApp dashboard](screenshots/showcase/remote-view-overview.png)
+
+[Workspace activity](screenshots/showcase/remote-view-02.png) · [Diagnostics](screenshots/showcase/remote-view-03.png) · [Error history](screenshots/showcase/remote-view-04.png)
+
+Remote View is a local read-only monitoring interface, not a public SaaS service or remote execution console. The captured phone layout does not constitute completed owner acceptance of the latest WebApp on a real iPhone.
+
+### Videos
+
+- [Short extension demo — 1 min 43 s (MP4)](media/showcase/agent-pok-short-demo.mp4)
+- [Full workflow demo — 8 min 12 s (MP4)](media/showcase/agent-pok-full-demo.mp4)
+
+These are demonstration recordings rather than independent certification. See [demo notes](docs/DEMO.md) and [validation limits](docs/VALIDATION.md).
 
 ## Current scope
 
