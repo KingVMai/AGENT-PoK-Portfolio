@@ -73,7 +73,7 @@ Actual captures of the private-use Agent PoK product. The showcase PNG copies pr
 
 ### Local WebApp — Remote View
 
-![Local read-only WebApp dashboard](screenshots/showcase/remote-view-overview.png)
+![Local read-only WebApp dashboard](screenshots/showcase/remote-view-01.png)
 
 [Workspace activity](screenshots/showcase/remote-view-02.png) · [Diagnostics](screenshots/showcase/remote-view-03.png) · [Error history](screenshots/showcase/remote-view-04.png)
 

@@ -4,7 +4,7 @@
 
 - [Short extension demo — 1 min 43 s, MP4](../media/showcase/agent-pok-short-demo.mp4): interface and theme switching.
 - [Full workflow demo — 8 min 12 s, MP4](../media/showcase/agent-pok-full-demo.mp4): ChatGPT, local development workspace, file operations and results.
-- [Extension screenshots](../screenshots/showcase/dashboard-dark-1.png) and [Remote View](../screenshots/showcase/remote-view-overview.png).
+- [Extension screenshots](../screenshots/showcase/dashboard-dark-1.png) and [Remote View](../screenshots/showcase/remote-view-01.png).
 
 The MP4 files use stream copying from the original MKV recordings (H.264 video and AAC audio), without editing the picture or audio. Original recordings are retained locally.
 
