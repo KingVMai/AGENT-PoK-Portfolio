@@ -13,7 +13,7 @@ The WebApp is a **locally hosted monitoring application**, not a public SaaS pla
 
 **A local AI-to-workspace execution companion** — a KingVMai portfolio project.
 
-**Status:** Working private prototype · Chrome-first · Source code not publicly distributed
+**Status:** Operational, owner-verified private-use build · Chrome-first · Source code not publicly distributed
 
 Agent PoK connects an AI conversation with a selected local development workspace. It is designed to reduce repetitive copying of terminal commands, file changes and diagnostic output, while keeping work inspectable and recoverable.
 
@@ -27,9 +27,11 @@ AI-assisted development becomes slow when every file inspection, script executio
 - Structured task requests and machine-readable results for selected workspace operations.
 - Local file inspection and editing workflows, command execution for trusted development and validation through tests.
 - Workspace activity, diagnostics, status and continuity controls.
+- An owner-accepted dashboard with an 11-section User Manual and installed extension version shown in the existing footer.
+- AUTO / TEXT / FILE task transport, a serialized user-message queue, and validated text/image-assisted task workflows.
 - A separate local read-only WebApp dashboard for workspace status and diagnostics on a trusted LAN, including phone browsers.
 - Project-state continuity using maintained documentation and an Initialize / Resume workflow.
-- A regression suite with **637 tests passing** in the recorded October 2026 development snapshot.
+- A maintained regression suite with **756/756 tests passing** on 14 October 2026 in the private development environment (not an independent security certification).
 
 ## Architecture (high level)
 
@@ -57,10 +59,10 @@ This is an **AI-assisted software engineering and quality assurance project**, n
 
 ## Screenshots and demo
 
-Curated, privacy-checked screenshots and a short video demonstration are being prepared. This portfolio repository will be updated with visual evidence before the link is used in a CV.
+Curated, privacy-checked screenshots and a short video demonstration remain to be captured and approved. Visual acceptance of the latest WebApp dashboard on a real phone is still pending. This portfolio repository should be updated with approved visual evidence before the link is used in a CV.
 
 ## Current scope
 
-Agent PoK is a personal local tool, not a public extension or hosted service. The source repository remains private. This showcase describes the project without releasing its internal engine, personal logs or credentials.
+Agent PoK is a personal local tool, not a public extension or hosted service. The source repository remains private. The installed extension currently reports version **0.1.1**; private **1.0.0** is only a proposal, not a tagged or published release. This showcase describes the project without releasing its internal engine, personal logs or credentials.
 
 **KingVMai** · Project portfolio · 2026
